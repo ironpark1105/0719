@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../0719 코딩/css.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .text1{
+        font-size: 60px;
+        
+        vertical-align: top;
+    }
+    .text2{
+        font-size: 10px;
+    }
+    </style>
+</head>
+<body>
+    <h1 class="abc">나는야 주스될꺼야;;;</h1>
+
+
+    <div>
+        <span class="text1">
+            vertical
+        </span>
+        <span class="text2">
+            align
+        </span>
+    </div>
+
+
+
+
+    <div>
+        의미없는 블록태그
+    </div>
+    <span>
+        의미없는 인라인태그
+    </span>
+
+    선택자{속성: 속성값;}
+<br><br><br><br>
+
+    <div class="container">
+        <div class="box1">
+            <span class="name">홍길동</span>
+            <span class="age">400세</span>
+        </div>
+        <div class="box2">
+            <span class="name">김철수</span>
+            <span class="age">30세</span>
+        </div>
+    </div>
+    빛의 삼원색 rgb 가산혼합
+    색의 삼원색 cmyk 감산혼합
+    256
+    트루칼라 24비트
+    8비트 3개 24비트 
+    2에8승 하면 256가지 
+    0~255
+    <br><br><br><br><br>
+1. 요소 선택자 - p와 같은 기본적인 태그를 선택하는 것 <br>
+2. id 선택자 - #id로 표현<br>
+3. class선택자 - .class로 표현<br>
+4. 선택자중첩 - p.class 처럼 띄어쓰기 없이 선택자를 붙여쓰면 중첩된 선택자에 해당하는 요소를 선택<br>
+5. 선택자 묶음- a, img, p 처럼 콤마를 이용하여 여러 선택자를 묶어서 선택 <br>
+6. 후손선택자 - p a 처럼 띄어쓰기를 통해 상속관계를 명시하여 선택 <br>
+7. 같은 단계의 선택자가 중복이 될 경우 아래쪽에 선택자가 우선<br>
+8. 더 많은 가족 단계를 표기한 후손 선택자가 우선<br>
+9. 다른 단일 선택자보다 id선택자가 우선<br>
+10. 외부링크로 stylesheet를 적용하는 방법<br>
+11. 내부에 쓰는 방법 헤더에 쓰는 방법<br>
+12. 요소에 쓰는 방법 <br>
+13. font-family '돋움', arial sans-serif;<br>
+14. 서체의 종류  <br>
+
+<h1>serif 꺽여있는 폰트</h1> <br>
+georgia <br>times new roman<br> 바탕체<br> 궁서체<br> 명조체
+<h1>sans-serif  안꺽여있는 폰트 <br></h1>
+1. 나눔고딕 : 안드로이드 기본 <br>
+2. notosans kr : 애플 기본 <br>
+3. monospace : 타이핑 서체(폰트의 폭이 모두 같다) <br>
+4. cursive : 커브가 많이 들어간 서체, 필기체 <br>
+5. fantasy <br><br><br><br>
+15. 폰트크기 (font-size:16px;), 폰트컬러, 폰트굵기(font-weight: lighterm 400미만, nomal400,bold 700, bolder 700이상) inherit 상위 요소를 상속  <br>
+16. font variant 
+nomal 기본, small caps 소눔자를 작은 대문자로 보여줌, inherit 상위요소를 상속 <br>
+17. lone-heught:20px or 1.6; 행간 <br>
+
+문자스타일 <br>
+text-decoration: none underline overline line-through
+text-alognm : left, right, center, justify
+text-indent : px
+text-transform : none, capitalize uppercase lowercase  
+letter-spacing 자간 letter-spacung
+word-spacing 단어간격 word-spacing
+vertical-align 세로정렬 
+baseline 텍스트의 베이스라인을 기준으로 정렬 (기본값)
+sub 아래첨자
+super 윗첨자
+text-top 부모요소의 글자를 기준으로 맨 위에 정렬 
+bottom 해당 줄의 가장 낮은 요소를 기준으로 맨 아래 정렬
+text-bottom 부모요소의 글자를 기준으로 맨 아래 정렬 
+miffle 부모요소의 글자를 기준으로 가운데 정렬 
+숫자단위 px : 베이스라인을 기준으로 양으로 갈 수록 위로 오ㅓㄹ라가며 음으로갈수록 아래로 내려감 
+비율 단위 
+
+
+
+
+
+
+<br><br><br><br><br>
+    <div class="container">
+        <div class="box box1">
+            <h1 id="h1box">CSS.</h1>
+            <p class="name1">이름1</p>
+        </div>
+        <div class="box box2">
+            <h1 id="h2box">CSS2.</h1>
+            <p class="name1">이름1</p>
+        </div>
+        <div class="box1 box2">
+            <h1 id="h3box">CSS3.</h1>
+            <p class="name1">이름1</p>
+        </div>
+    </div>
+    선택자의 중첩 : 요소 이름과 클래스 이름을 붙여쓴다. <br>
+    선택자의 묶음 : 쉼표를 이용하여 여러개를 한꺼번에 선택 할 수 있다. <br>
+    후손선택자 : 요소 앞을 하나씩 띄어씀 .containder .box1 h1{color:red;}
+
+    <p>
+        copylight 2021 & iron park 
+    </p>
+</body>
+</html>

@@ -1,0 +1,40 @@
+#h1box {
+    color: red;
+}
+#h2box {
+    color: blue;
+}
+#h3box {
+    color: green;
+}
+.name1 {
+    color: rgb(216, 31, 161);
+}
+
+.box1 .name {
+    color: red;
+}
+.box2 .name {
+    color: blue;
+}
+
+.age {
+    color: green;
+}
+
+body {
+    font-family: dotum, sans-serif;
+    font-size: 16px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.abc{
+text-decoration: underline;
+text-align: center;
+}
